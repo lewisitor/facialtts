@@ -10,8 +10,8 @@ A complete solution for generating realistic talking avatars with your choice of
 ✨ Features
 
 - Dual Generation Engines
-  - 🚀 Wav2Lip for fast local processing
-  - ✨ D-ID for studio-quality results
+  - 🚀 Wav2Lip for fast local processing (Slow, Results vary based on the checkpoint and training model)
+  - ✨ D-ID for studio-quality results (High-Quality, but you need to have Credits to generate the video, if not then your video will have watermarks)
 - Real-time progress tracking
 - Cross-platform compatibility
 - Voice customization (pitch/speed control)
@@ -50,7 +50,7 @@ D_ID_API_ENDPOINT=https://api.d-id.com/talks
 
 # Wav2Lip Configuration
 WAV2LIP_CHECKPOINT=./Wav2Lip.pth # you will need to download the checkpoint file if you want to use Wav2Lip
-
+For WAV2LIP I used code from the repo of Wav2Lip: https://github.com/Rudrabha/Wav2Lip
 # Google TTS
 Google_TTS_API_KEY=your_google_cloud_key
 
@@ -156,7 +156,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Lewis Itor - [@Lewis_Itor](https://x.com/lewis_itor) - itorlewis@gmail.com
 
-Project Link: [https://github.com/yourusername/avatar-studio-pro](https://github.com/lewisitor/facialtts)
+Project Link: [https://github.com/lewisitor/facialtts](https://github.com/lewisitor/facialtts)
 
 
 To use this README:
