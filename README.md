@@ -160,26 +160,3 @@ Lewis Itor - [@Lewis_Itor](https://x.com/lewis_itor) - itorlewis@gmail.com
 Project Link: [https://github.com/lewisitor/facialtts](https://github.com/lewisitor/facialtts)
 
 
-To use this README:
-
-1. Copy the entire content above
-2. Paste into your `README.md` file
-3. Make these replacements:
-   - `yourusername` → Your GitHub username
-   - `your_d-id_api_key_here` → Your actual D-ID API key
-   - `your_google_cloud_key` → Your Google Cloud TTS key
-   - Update contact information
-4. Add these files to your project:
-   - `demo-screenshot.png` (Screenshot of your interface)
-   - `LICENSE` (MIT License file)
-
-The README includes:
-- Badges for version tracking
-- Clear installation instructions
-- Configuration guide
-- API documentation
-- Visual comparison table
-- Troubleshooting solutions
-- Contribution guidelines
-
-
