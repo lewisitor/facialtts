@@ -3,8 +3,6 @@ Avatar Studio By Lewis Itor
 ![Homepage](https://lewisconcepts.xyz/uploads/images/forgithub/1.jpeg)
 ![Demo Gallery](https://lewisconcepts.xyz/uploads/images/forgithub/gallery-demo.jpeg)
 
-![Avatar Studio Interface]
-
 A complete solution for generating realistic talking avatars with your choice of Wav2Lip (local processing) or D-ID (cloud API).
 
 ✨ Features
@@ -105,6 +103,9 @@ Response:
 
 A cache is needed to process the video, this is a requirement from DID
 I enabled Localstorage to act as a cache, you can also use Redis. 
+
+![Architecture](https://lewisconcepts.xyz/uploads/images/forgithub/technic.jpeg)
+
 
 
 📊 Provider Comparison
