@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>D-ID Demo Gallery by Lewis Itor</title>
+  <link rel="icon" href="https://lewisconcepts.xyz/uploads/images/icon/125882149_padded_logo.png" type="image/png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    .video-container {
+      aspect-ratio: 16/9;
+    }
+    .gallery-item:hover {
+      transform: translateY(-4px);
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-indigo-50 to-purple-50 min-h-screen flex flex-col items-center p-4 md:p-8">
+  <div class="max-w-6xl w-full space-y-6">
+    <div class="text-center space-y-3">
+      <h1 class="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent mt-5">
+        D-ID Demo Gallery
+      </h1>
+      <p class="text-gray-600 text-lg">Witness the power of AI-generated avatar videos</p>
+    </div>
+
+    <!-- Gallery Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Lincoln Burrows Pair -->
+      <div class="bg-white rounded-2xl shadow-xl overflow-hidden transition-all duration-300 gallery-item">
+        <div class="p-4 border-b">
+          <h3 class="font-medium text-gray-700 text-center mb-2">Lincoln Burrows</h3>
+          <div class="aspect-square overflow-hidden rounded-lg">
+            <img src="https://lewisconcepts.xyz/uploads/images/did/dominic.jpg" 
+                 alt="Dominic Avatar" 
+                 class="w-full h-full object-cover" />
+          </div>
+        </div>
+        <div class="p-4">
+          <div class="video-container bg-black rounded-lg overflow-hidden">
+            <video controls class="w-full h-full">
+              <source src="https://lewisconcepts.xyz/uploads/videos/did/1743906284917.mp4" 
+                      type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        <div class="bg-gray-50 p-4 border-t">
+          <div class="text-sm text-gray-600 italic">
+            <span class="font-medium text-gray-700 not-italic">Script Text:</span><br>
+            "Hello World, my name is Lewis Itor, I am from Cameroon, I am based in Abu Dhabi, 
+            I love to study and read. I am an AI Developer and Enthusiast."
+          </div>
+        </div>
+      </div>
+
+      <!-- Mona Lisa Pair -->
+      <div class="bg-white rounded-2xl shadow-xl overflow-hidden transition-all duration-300 gallery-item">
+        <div class="p-4 border-b">
+          <h3 class="font-medium text-gray-700 text-center mb-2">Mona Lisa</h3>
+          <div class="aspect-square overflow-hidden rounded-lg">
+            <img src="https://lewisconcepts.xyz/uploads/images/did/monalisa.jpg" 
+                 alt="Mona Lisa" 
+                 class="w-full h-full object-cover" />
+          </div>
+        </div>
+        <div class="p-4">
+          <div class="video-container bg-black rounded-lg overflow-hidden">
+            <video controls class="w-full h-full">
+              <source src="https://lewisconcepts.xyz/uploads/videos/did/1743906445358.mp4" 
+                      type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        <div class="bg-gray-50 p-4 border-t">
+          <div class="text-sm text-gray-600 italic">
+            <span class="font-medium text-gray-700 not-italic">Script Text:</span><br>
+            "Hello World, my name is Salome Itor, I am from Cameroon, I am based in Montreal, Canada, 
+            I love to study and read. I am an AI Developer and Enthusiast."
+          </div>
+        </div>
+      </div>
+
+      <!-- Modern Photo Pair -->
+      <div class="bg-white rounded-2xl shadow-xl overflow-hidden transition-all duration-300 gallery-item">
+        <div class="p-4 border-b">
+          <h3 class="font-medium text-gray-700 text-center mb-2">Modern Portrait (Lewis Itor)</h3>
+          <div class="aspect-square overflow-hidden rounded-lg">
+            <img src="https://lewisconcepts.xyz/uploads/images/did/PHOTO-2025-02-18-10-48-13.jpg" 
+                 alt="Modern Portrait" 
+                 class="w-full h-full object-cover" />
+          </div>
+        </div>
+        <div class="p-4">
+          <div class="video-container bg-black rounded-lg overflow-hidden">
+            <video controls class="w-full h-full">
+              <source src="https://lewisconcepts.xyz/uploads/videos/did/1743906976594.mp4" 
+                      type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        <div class="bg-gray-50 p-4 border-t">
+          <div class="text-sm text-gray-600 italic">
+            <span class="font-medium text-gray-700 not-italic">Script Text:</span><br>
+            "Hello World, my name is Lewis Itor, I am from Cameroon, I am based in Abu Dhabi, 
+            I love to study and read. I am an AI Developer and Enthusiast."
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Info Section -->
+    <div class="bg-white rounded-2xl shadow-xl p-6 text-center text-gray-600">
+      <p class="mb-2">All videos generated using D-ID's advanced AI video synthesis technology</p>
+      <div class="flex justify-center space-x-4 text-indigo-600">
+        <a href="/index.html" class="hover:text-indigo-800 transition-colors">
+          <i class="fas fa-magic mr-1"></i> Create Your Own
+        </a>
+        <a href="https://github.com/lewisitor/facialtts" target="_blank" class="hover:text-indigo-800 transition-colors">
+          <i class="fa-brands fa-github mr-1"></i> Github Repo
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
